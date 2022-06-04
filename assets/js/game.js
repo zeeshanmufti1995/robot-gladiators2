@@ -105,6 +105,9 @@ for (var i = 0; i < enemyNames.length; i++) {
 }
 startGame();
 }
+
+
+
  // function to end the entire game
  var endGame = function() {
     // if player is still alive, player wins!
@@ -124,5 +127,8 @@ else {
   window.alert("Thank you for playing Robot Gladiators! Come back soon!");
 }
   }
+  var shop = function() {
+    console.log("entered the shop");
+  };
 
 startGame();
